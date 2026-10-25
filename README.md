@@ -67,3 +67,4 @@ During this assignment, I learned how to create JavaScript objects, perform arit
 ## GitHub Repository
 
 https://github.com/koda-at/Frontassign5
+https://koda-at.github.io/Frontassign5/

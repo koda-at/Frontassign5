@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>My Profile</h1>
+
+    <form id="profileForm">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <br><br>
+
+        <label for="birthYear">Birth Year:</label>
+        <input type="number" id="birthYear" required>
+
+        <br><br>
+
+        <button type="submit">Create / Update Profile</button>
+
+    </form>
+    <h2>My Hobbies</h2>
+
+    <ul id="hobbyList">
+        <li>Programming</li>
+        <li>Football</li>
+        <li>Gaming</li>
+    </ul>
+
+    <input type="text" id="newHobby" placeholder="Enter a hobby">
+
+    <button type="button" id="addBtn">Add Item</button>
+    <button type="button" id="removeBtn">Remove Item</button>
+</body>
+</html>
